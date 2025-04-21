@@ -1,0 +1,20 @@
+# Django and DRF
+Django>=5.0,<5.3 # Use a recent stable version
+djangorestframework>=3.14,<3.16
+django-cors-headers>=4.0,<4.4
+
+# Database (for PostgreSQL in production, psycopg2-binary is needed)
+# psycopg2-binary>=2.9,<2.10
+
+# Data Handling
+pandas>=2.0,<2.3
+openpyxl>=3.0,<3.2 # For reading .xlsx files
+
+# AI Integration
+google-generativeai>=0.4,<0.6 # For Gemini API
+
+# Environment variables
+python-dotenv>=1.0,<1.1 # For loading .env files
+
+# Gunicorn (for production deployment)
+# gunicorn>=21.0,<22.1
